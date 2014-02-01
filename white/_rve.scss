@@ -1,9 +1,11 @@
 .embed-video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
     height: 0;
     overflow: hidden;
+    height: 400px;
+    width: 500px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .embed-video-container iframe,
@@ -14,6 +16,8 @@
     left: 0;
     width: 500px;
     height: 400px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 article .flash-video {
