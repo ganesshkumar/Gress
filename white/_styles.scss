@@ -1,0 +1,29 @@
+// This File is imported last, and will override other styles in the cascade
+// Add styles here to make changes without digging in too much
+
+html {
+  background: #fff !important;
+}
+
+body {
+  > div {
+    background: #fff !important;
+    > div {
+      background: #fff !important;
+      border-right: 0px;
+    }
+  }
+}
+
+body>header h1 a {
+  color: black !important;
+}
+
+embed-video-container {
+  height: 100px;
+  width: 100px;
+}
+
+aside.sidebar li{
+  border-bottom: 0px;
+}
